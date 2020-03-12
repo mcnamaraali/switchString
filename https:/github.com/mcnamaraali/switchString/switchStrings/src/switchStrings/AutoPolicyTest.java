@@ -12,7 +12,8 @@ public class AutoPolicyTest {
 	//method to display policy is in a no-fault state
 	private static void policyInNoFaultState(AutoPolicy autoPolicy1) {
 		System.out.println ("The auto policy:");
-		System.out.printf("Account %d; car %s%n ; state %s;  %s no-fault state %n", 
+		System.out.printf("Account %d; car %s%n ; state %s;  "
+				+ "%s no-fault state %n", 
 				autoPolicy1.getAccountNumber(),
 				autoPolicy1.getMakeAndModel(), 
 				autoPolicy1.getState(),
